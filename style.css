@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background-page: #F3E5D8;
+    --font-title: 30px;
+    --color-title: #2e2a29;
+    --color-p: #7e7978;
+    --background-preparation: #ddccd5;
+}
+
+body {
+    background-color: #F3E5D8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+article {
+    background-color: red;
+    width: 50%;
+    padding: 30px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: var(--font-title);
+    color: var(--color-title);
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: var(--color-p);
+}
+
+.preparation {
+    background-color: var(--background-preparation);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.preparation h3 {
+    color: #58102f;
+
+}
+
+.preparation ul {
+    margin: 20px;
+}
+
+.preparation li {
+    margin: 5px 0;
+}
+
+h3 {
+    color: #a35b41;
+    margin: 20px 0;
+}
+
+ul,
+ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+li::marker {
+    color: #a35b41;
+}
+
+li {
+    margin: 5px 0;
+    font: size 15px;;
+}
+li {
+   color: var(--color-p) ;
+}
+strong {
+    font-weight: bold;
+    color:var(--color-title);
+}
+
+
+.separator {
+    background-color: #a35b41;
+    height: 1px;
+}
+.nutrition p {
+    color: black;
+    border-bottom: 1px solid #b88471 ;
+    padding-bottom: 10px;
+}
+
+.nutrition p span {
+    display: inline-block;
+    width: 50%;
+}
+.cantidad {
+   color: #a35b41;
+   font-weight: bold;
+}
